@@ -1,0 +1,199 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="886,564" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uiascb="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.CD0CCC83B4D_textCompletionUsingGemini_Create.Bundle;assembly=CD0CCC83B4D_textComp.hfXLTMGSnK1W126bZ7DyP2" xmlns:uisape="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.PDF.ExtractPDFText;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.PDF.ExtractPDFText</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.PDF</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>CD0CCC83B4D_textComp.hfXLTMGSnK1W126bZ7DyP2</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.StudioWeb.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="416,481" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="pdf_text" />
+      <Variable x:TypeArguments="x:String" Name="jobdesc_text" />
+      <Variable x:TypeArguments="x:String" Name="llmOutput" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uisape:ExtractPDFText ApplyOcr="{x:Null}" FilePassword="{x:Null}" OcrEngine="{x:Null}" DisplayName="Extract PDF Text" sap:VirtualizedContainerService.HintSize="354,122" sap2010:WorkflowViewState.IdRef="ExtractPDFText_1" PdfFile="[LocalResource.FromPath(&quot;E:\\Resume\\SampleATSResume\\RPA Project Manager.pdf&quot;)]" Text="[pdf_text]" />
+    <ui:ReadTextFile File="{x:Null}" Content="[jobdesc_text]" DisplayName="Read  job desc Text File" FileName="Data\jobDescription.txt" sap:VirtualizedContainerService.HintSize="354,112" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
+    <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACu1XW0/jOBT+K1aeZqSSaYFhWCQeILBDF1gqysBqV2jkJm7jrRNnbKeli/jv+9lOaEoKDCON9mVfqvTcfM53Lj6+D37lTCQ6krmhPGcq2LsPhoyqOKUjwTwz2PvrthP086I0j4T74HeasWAvyGTChPvuBEdcF4IuKs655ZCaxXSseGG4zMG6ShkRVE3sbz4pKT6cHfLu7Oz8PTGSlIYL/g8jY6mIgXQss0Iwq04U+1YybWD0alHYg7RRPJ/g/1Aqc6ESG0XPHjmmpTDXVJRWasIynvONQklIHudl1ozis2OSgWOu0XjorBEl11zbeNZpbMw87wHIXcJhrlgS7BlVso6H/EzGtEJjQE0KIxd5RPMZ1V6scSLMZYVp4Tt4JLew9RoOR73E0LA70wDynX5PJgw59368COemO4VPcMB9MJCa164rnlG1AD6vRnkok8VLUY65aNdQP0NttEJ0VGIVbIgjZqNMvqtUqkMakW01I3M+H8RW1xe5/66Uh6mcQ/myFMxzL9nYaaxphb6OBNrIwjGmQgOPvr6RajoWcn58VyimXXnUzNqSKyRrfE0p3T7cWrhWXDrhCfsBl3yGftgj5woKe30h/A/im0B82ifnmFm8oMo0h05G7y5KgwF8JacMtdmatfSOSCeAjqglVnoGEjwrM4LBN2KKyHEliJahmAo0t31UjQM0E89dL6EqCvQCC8mBlydcE1rAfViDoFig7UpFcF0oGhumdEh63W5tO5bKW0hsoypZTlJo7HQ3drtkLlUC6WHBYj5eEEpQh3BsZqFyvaxTdCkotQ84GHYoSfkkXREspGG54VTAtpD5pKmzbH2eGwbWavdvA3+pEIkX2NoMnt4bm93t3bD7zPgbshixNev+DQPPsKywaJeqPfeuVnkrmTyoczhiZs6Qkq4DphcSctKARhPBp4x0w10y50KQjOKfzWlVJ5lUyC80ZdYh89QO00YGHrU3G9q80hrL2E1ce2zCkCNb09rwOCQVeCgraY8Ol/h7p1fh/9iAP5ElNo4W/jDyU8CXxaCNuixI8Ra83R7jQLPAerGO+8Y81hXZY5yD8FZ4dv5LeE7XwjN9HZ6eg2e7W+FTtesSIPfZoCZ8hrnBzcIOpeUEstvKKmAw+Uo7f3q1nWHjpzTzyPNXAauJrf1Mjv5msSEV/+netfSur3HBJyyvj3vpssBV4q+I9o5uoVwzYjyx5Rxy/yQNzZXq0csXtsVmSVabod3ClreiH871HlL/j0p35HMLpI/upST8xs1X62/06O4XDef8xr4WALIUJRcuKS1IlqF+4XZTD/u28vzSPGRqxmMW2p1shjpiOhzeHOMucp/RUTeKot2tw+2j5936GimGqMPDMk8EC1+T65B1VsN0/MfZ1fnnYX7au+lt7oz+/HS0GGx2yLXtLJnv90LUPSqfRCgYXCr7OSuNoqJDBhgrPD5lC7dZ7OelEEE7Zd+ZC7tTIglOusoOdlY8HbWhecwGWBIye19A/D6ofIM15x2M4RWaIwVSwR2QS1S2STcmUk4E28CQQLiQqsBeVFmpqwa+uAQ2av65OjgxpjhnJpVw0k4Au2oFEY1ThhjltCzqfc1Wr6cfKjnHQO/j0q7oAxpP8QxpRvFxNYpVVu+Xt7h44a5/r+0z3/L7YngFmns87gUfnjX24f7xEfAA+bPqwQ0dzBXYpPoQ9qeQj1LwbNgu6Q//AnQe1QMcEAAA" ConnectionId="33778444-8a25-43a5-a8bc-3bd50af07817" DisplayName="Generate Text Completion using Gemini" sap:VirtualizedContainerService.HintSize="354,84" sap2010:WorkflowViewState.IdRef="ConnectorActivity_2" UiPathActivityTypeId="db9c7040-852f-3e5b-b9b4-4473af13e394">
+      <isactr:ConnectorActivity.FieldObjects>
+        <isactr:FieldObject Name="modelName" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">gemini-pro</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="prompt" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String" xml:space="preserve">["You are an advanced language model designed To assist With recruitment tasks. Given a Resume And a job description, your tasks are:
+
+Summarize the Resume: Extract key details such As the candidate's name, contact information, education, work experience, skills, and any notable achievements.
+
+Match Check: Compare the Resume against the job description. Identify And list the key qualifications And requirements From the job description, And check how well the Resume matches Each Of these points.
+
+Mismatch Check: Identify and list any qualifications, skills, or experiences from the job description that are missing or inadequately represented in the resume.
+
+Percentage Match: Provide a percentage score indicating how well the Resume aligns With the job description. This score should be based On the relevance And presence Of required qualifications, skills, And experiences.
+
+Inputs:
+
+Resume: "+ pdf_text+
+"Job Description:"+ jobdesc_text+
+"Outputs:
+
+Resume Summary:
+
+Name:
+Contact Information:
+Education:
+Work Experience:
+Skills:
+Achievements:
+Job Description Requirements:
+
+[List Of key qualifications And requirements]
+Matching Details:
+
+Qualification 1: Match (Yes/No/Partial), Explanation
+Qualification 2: Match (Yes/No/Partial), Explanation
+
+Percentage Match: [Provide the percentage match And a brief explanation Of the score calculation]"]</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="_file" Type="FieldArgument" />
+        <isactr:FieldObject Name="maxOutputTokens" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:Int32">2048</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="temperature" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:Double">0.8</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="topP" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:Double">0.8</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="topK" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:Int32">40</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="out_text" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <OutArgument x:TypeArguments="x:String">[llmOutput]</OutArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="Jit_textCompletionUsingGemini" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <OutArgument x:TypeArguments="uiascb:textCompletionUsingGemini_Create" />
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+      </isactr:ConnectorActivity.FieldObjects>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </isactr:ConnectorActivity>
+    <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" FileName="Data\resumeSmryLLM.txt" sap:VirtualizedContainerService.HintSize="354,75" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[llmOutput]">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:WriteTextFile>
+  </Sequence>
+</Activity>
